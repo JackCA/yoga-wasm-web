@@ -1,14 +1,20 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/yoga-layout': ^1.9.4
   esbuild: ^0.14.18
   esbuild-plugin-flow: ^0.3.2
 
 devDependencies:
+  '@types/yoga-layout': 1.9.4
   esbuild: 0.14.18
   esbuild-plugin-flow: 0.3.2
 
 packages:
+
+  /@types/yoga-layout/1.9.4:
+    resolution: {integrity: sha512-RRHc1+8Hc5mf/2lZKnom6kCnqcNS07s8keahniWTOva0KELF6RgDJmaEcvGEKUUJgN4UgessmEsWuidaOycIOw==}
+    dev: true
 
   /esbuild-android-arm64/0.14.18:
     resolution: {integrity: sha512-AuE8vIwc6QLquwykyscFk0Ji3RFczoOvjka64FJlcjLLhD6VsS584RYlQrSnPpRkv69PunUvyrBoEF7JFTJijg==}

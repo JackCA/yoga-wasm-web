@@ -1,6 +1,6 @@
-import Yoga from "yoga-layout";
+import type Yoga from "yoga-layout";
 
-export {
+export type {
   YogaNode,
   YogaConfig,
   YogaAlign,
@@ -19,10 +19,9 @@ export {
 
 export type YogaStatic = typeof Yoga
 
-export type YogaWasm = {
-  init(filepath?: string): Promise<YogaWasm>
-} & YogaStatic
+function init(filepath?: string): Promise<YogaStatic>
 
-const mod: YogaWasm
+export async function initStreaming(response: Promise<Response>): Promise<YogaStatic>
 
-export default mod
+
+export default init

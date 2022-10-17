@@ -18,6 +18,7 @@
     "LICENSE"
   ],
   "devDependencies": {
+    "@types/yoga-layout": "^1.9.4",
     "esbuild": "^0.14.18",
     "esbuild-plugin-flow": "^0.3.2"
   }
