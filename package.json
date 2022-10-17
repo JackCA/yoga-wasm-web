@@ -1,6 +1,6 @@
 {
   "name": "@jackca/yoga-wasm-web",
-  "version": "0.1.4",
+  "version": "0.1.3-internal",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "typings": "index.d.ts",
