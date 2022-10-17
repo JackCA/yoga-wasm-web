@@ -1,5 +1,5 @@
 {
-  "name": "yoga-wasm-web",
+  "name": "@jacka/cayoga-wasm-web",
   "version": "0.1.2",
   "main": "dist/index.js",
   "types": "index.d.ts",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "make && node build.js"
   },
-  "repository": "shuding/yoga-wasm-web",
+  "repository": "JackCA/yoga-wasm-web",
   "license": "MIT",
   "files": [
     "dist",
