@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "types": "index.d.ts",
   "typings": "index.d.ts",
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "make && node build.js"
