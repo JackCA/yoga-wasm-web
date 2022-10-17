@@ -1,5 +1,5 @@
 {
-  "name": "@jacka/cayoga-wasm-web",
+  "name": "@jacka/yoga-wasm-web",
   "version": "0.1.2",
   "main": "dist/index.js",
   "types": "index.d.ts",
